@@ -116,6 +116,20 @@ Note:
 
 ***
 
+## Classes/PSR-4
+
+* Namespaces match to files directly.
+* modules/user/src/Example.php
+
+```
+namespace Drupal\user\Example;
+
+class Example {
+}
+```
+
+***
+
 ## $module.routing.yml
 
 <strike>hook_menu, page callback</strike>
@@ -132,6 +146,7 @@ user.page:
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 ## controller <!-- .element: class="fragment" data-fragment-index="2" -->
+
 
 ```
 namespace Drupal\user\Controller;
