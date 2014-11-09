@@ -395,7 +395,7 @@ user.login:
 class UserLoginForm extends FormBase {
   public function getFormId() { return 'user_login_form'; }
 
-  public function buildForm(array $form, FormstateInterface $form_state) {
+  public function buildForm(array $form, FormStateInterface $form_state) {
     $form['name'] = array(
       '#type' => 'textfield',
       '#title' => $this->t('Username'),
